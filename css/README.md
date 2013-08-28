@@ -2,10 +2,8 @@
 
 Converting fixed-width mStoner template to Responsive Design
 
-#### Summary ####
-* 1. Majors, Minors and Programs links
-* 2. List all 44 majors
-* 3. For each major, display the Content Introduction, Content Copy, Contact Info and Outcome data.
+#### Goal ####
+* To convert Union's fixed-width template to a responsive web design such that visitors who click on a link from an email newsletter and arrive at a www.union.edu subpage, can read the intended call to action.
 
 #### Requirements ####
 * Cascade Server 6.10+ with Velocity 1.7
