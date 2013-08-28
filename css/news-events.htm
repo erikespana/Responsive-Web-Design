@@ -1,288 +1,75 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <meta http-equiv="content-style-type" content="text/css" />
-    <meta http-equiv="content-language" content="en-us" />
-    <meta name="keywords" content="keywords" />
-    <meta name="description" content="description" />
-    <meta name="language" content="en-us" />
-    <title>Site Templates </title>
-    <!--[if ! lte IE 6]><!-->
-    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="scripts/jq-base/ui.tabs.css" media="all" />
-    <!--<![endif]-->
-    <!--[if lte IE 6]>
-    <link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection" />
-    <![endif]-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.cycle.all.min.js"></script>
-    <script type="text/javascript" src="scripts/supersleight.plugin.js"></script>
-    <script type="text/javascript" src="scripts/curvycorners.js"></script>
-    <script type="text/javascript" src="scripts/global.js"></script>
-</head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta content="text/css" http-equiv="content-style-type" />
+        <meta content="en-us" http-equiv="content-language" />
+        
+        <system-page-meta-keywords />
+        <system-page-meta-description />
+        <meta content="en-us" name="language" />
+        <title><system-page-title /> - Union College</title>
+        <system-region name="HEAD-CSS" />
+        <link href="site://reboot/_scripts/jq-base/ui.tabs.css" media="all" rel="stylesheet" type="text/css" />
+        <!--[if lte IE 6]>
+        <link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection" />
+        <![endif]-->
+        <system-region name="HEAD-JAVASCRIPT" />
+        <system-region name="HEAD-JAVASCRIPT-OPTIONAL" />
+        <system-region name="CSSOVERRIDE" />
+    </head>
 <body>
-    <div id="page-outer">
-        <!--========== Begin Header ==========-->
-        <div id="header">
-            <div class="logo-outer">
-                <a href="index.htm" title="Union College home">
-                    <img src="img/header/union-college-logo.png" alt="Union College" /></a>
-            </div>
-            <ul class="inline-list audience-nav">
-                <li><a href="#">Current Students</a></li>
-                <li><a href="#">Parents</a></li>
-                <li><a href="#">Faculty &amp; Staff</a></li>
-                <li><a href="#">Alumni</a></li>
-                <li><a href="#">Local Community</a></li>
-            </ul>
-            <div class="search-form">
-                <input type="text" class="textbox" value="Search" title="Search" />
-                <input type="image" class="button" src="img/header/search-submit.png" />
-            </div>
-        </div>
-        <!--========== End Header ==========-->
-        <!--========== Begin Topic Nav ==========-->
-        <div id="topic-nav">
-            <ul>
-                <li><a href="#" class="about">About</a></li>
-                <li><a href="#" class="academics">Academics</a></li>
-                <li><a href="#" class="admissions">Admissions</a></li>
-                <li><a href="#" class="studentLife">Student Life</a></li>
-                <li><a href="#" class="athletics">Athletics</a></li>
-                <li class="selected"><a href="#" class="newsEvents">News &amp; Events</a></li>
-                <li><a href="#" class="giving">Giving</a></li>
-            </ul>
-        </div>
-        <!--========== End Topic Nav ==========-->
-        <hr class="hide" />
-        <!--========== Begin Body Outer ==========-->
+<!-- googleoff: index --><a href="#maincontent" style="display:none;">Skip to content</a><!-- googleon: index -->
+<div id="page-outer">
+    <system-region name="SITEHEADER" />
+    <system-region name="TOPICNAVIGATION" />
+    <!--========== Start Body Outer ==========-->
         <div id="main">
             <div class="main-content">
                 <div class="main-leftcol-outer main-leftcol-outer-alt">
                     <div class="main-leftcol">
-                        <ul class="subnav">
-                            <li><a href="#">News Archive</a></li>
-                            <li><a href="#">Union in the News</a></li>
-                            <li><a href="#">Union College Magazine</a></li>
-                            <li><a href="#">Student Publications &amp; Media</a></li>
-                            <li><a href="#">President's Report</a></li>
-                            <li><a href="#">Contact the Office of Admissions</a></li>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Press Releases</a></li>
-                            <li><a href="#">Galleries</a></li>
-                            <li><a href="#">Faculty Experts</a></li>
-                        </ul>
-                        <div class="col-spif col-spif-narrow">
-                            <div class="spif-mixed">
-                                <div class="spif-header">
-                                    Connect with Union
-                                </div>
-                                <p>
-                                    For members of new equine club, unbridled delight: Students form Union's first equestrian
-                                    club http://bit.ly/9jknPU</p>
-                                <div class="spif-footer">
-                                    <div class="meta">
-                                        1:46 PM May 17th via twitterfeed</div>
-                                </div>
+                        <system-region name="NAVIGATIONCONTEXTUAL" />
+                        <system-region name="COLUMNWIDGET" />
+                    </div>
+                    <div class="main-maincol">
+
+                        <div class="article-header article-header-wide">
+                            <system-region name="PAGEHEADER" />
+                            <system-region name="NAVIGATIONANCESTORS" />
+                            
+                            <div class="article-functions">
+                                <system-region name="SHARE-PRINT-NEXT" />
                             </div>
                         </div>
-                    </div>
-                    <div class="main-maincol main-maincol-alt">
-                        <div class="article-header">
-                            <h1>
-                                News</h1>
-                            <ul class="inline-list breadcrumbs-list">
-                                <li><a href="#">Home</a></li>
-                                <li>News &amp; Events</li>
-                            </ul>
-                        </div>
+                        
+                        <!--
                         <div class="article-aside separator-left">
-                            <div class="aside-widget primary-events">
-                                <h1>
-                                    Events</h1>
-                                <h2>
-                                    Thursday, May 27, 2010</h2>
-                                <ul>
-                                    <li><a href="#" class="event-name">Movies &amp; Munchies</a>
-                                        <div class="meta">
-                                            (Multi-Day Event) &middot; Green House</div>
-                                    </li>
-                                    <li><a href="#" class="event-name">ReUnion 2010</a>
-                                        <div class="meta">
-                                            (Multi-Day Event) &middot; All Day</div>
-                                    </li>
-                                    <li><a href="#" class="event-name">Exhibit: &quot;Union College Senior Invitational&quot;</a>
-                                        <div class="meta">
-                                            10:00 AM - 6:00 PM &middot; Nott Memorial</div>
-                                    </li>
-                                    <li><a href="#" class="event-name">Model UN Office Hours</a>
-                                        <div class="meta">
-                                            11:00 AM - 1:00 PM &middot; Beuth House</div>
-                                    </li>
-                                    <li><a href="#" class="event-name">Ned Lincoln: Sorum's Minerva Fellow discusses Cambodia</a>
-                                        <div class="meta">
-                                            12:30 PM - 2:00 PM &middot; Sorum House</div>
-                                    </li>
-                                    <li><a href="#" class="event-name">John Barresi: &quot;On Becoming a Person&quot;</a>
-                                        <div class="meta">
-                                            4:30 PM - 6:30 PM &middot; Hale House</div>
-                                    </li>
-                                    <li><a href="#" class="event-name">Mind of the Abuser</a>
-                                        <div class="meta">
-                                            6:00 PM - 8:00 PM &middot; Golub House</div>
-                                    </li>
-                                    <li><a href="#" class="event-name">Dancing at Lughnasa</a>
-                                        <div class="meta">
-                                            8:00 PM - 10:00 PM &middot; Yulman Theater</div>
-                                    </li>
-                                </ul>
-                                <div class="primary-events-footer">
-                                    <a href="#">More events</a>
-                                </div>
+                            <system-region name="CONTENTASIDE"/>
+                            <system-region name="CONTENTASIDECOMPONENT"/>
+                        </div>          
+                        -->
+                        
+                        <div class="article-content article-content-wide2">
+                            <div class="article-date">
+                                <system-region name="DATE" />
                             </div>
-                            <div class="feature-widget aside-widget">
-                                <div class="feature-header">
-                                    <div class="title">
-                                        <a href="#">Editable Feature</a></div>
-                                    <div class="subtitle">
-                                        Fusce mi Lectus</div>
-                                    Ut sed libero ut sapien scelerisque laoreet at euismod
-                                </div>
-                                <div class="feature-content">
-                                    <a href="#">
-                                        <img src="img/sections/news/feature1.jpg" alt="(description of photo)" /></a>
-                                </div>
-                            </div>
+                            <system-region name="BYLINE" />
+                           <system-region name="CONTENTINCLUDE" />
+                            <system-region name="CONTENTCOPY" />
+                            <system-region name="CONTENTCOPYJQUERY" />
+                            <system-region name="YOUTUBEVIDEO" />
+                            <system-region name="COMMENTS" />
                         </div>
-                        <script type="text/javascript">
-                            $('.news-slides').cycle({
-                                fx: 'scrollHorz',
-                                timeout: 0,
-                                speed: 400,
-                                next: '.news-slide-nav-right',
-                                prev: '.news-slide-nav-left',
-                                cleartypeNoBg: true,
-                                pager: '.picker-nav'
-                            });
-                        </script>
-                        <div class="news-feature-area news-media-picker news-slides-outer">
-                            <div class="title">
-                                Featured Stories</div>
-                            <div class="picker-nav">
-                            </div>
-                            <div class="news-slides">
-                                <div class="slide">
-                                    <img src="img/sections/news/news-featured1.jpg" alt="(description of photo)" />
-                                    <div class="caption">
-                                        <span class="date">May 7, 2010</span> <a class="slide-title" href="#">Campus Celebrates
-                                            Steinmetz Symposium and Prize Day</a>
-                                    </div>
-                                </div>
-                                <div class="slide">
-                                    <img src="img/sections/news/news-featured2.jpg" alt="(description of photo)" />
-                                    <div class="caption">
-                                        <span class="date">May 7, 2010</span> <a class="slide-title" href="#">Campus Celebrates
-                                            Steinmetz Symposium and Prize Day (2)</a>
-                                    </div>
-                                </div>
-                                <div class="slide">
-                                    <img src="img/sections/news/news-featured3.jpg" alt="(description of photo)" />
-                                    <div class="caption">
-                                        <span class="date">May 7, 2010</span> <a class="slide-title" href="#">Campus Celebrates
-                                            Steinmetz Symposium and Prize Day (3)</a>
-                                    </div>
-                                </div>
-                                <div class="slide">
-                                    <img src="img/sections/news/news-featured4.jpg" alt="(description of photo)" />
-                                    <div class="caption">
-                                        <span class="date">May 7, 2010</span> <a class="slide-title" href="#">Campus Celebrates
-                                            Steinmetz Symposium and Prize Day (4)</a>
-                                    </div>
-                                </div>
-                                <div class="slide">
-                                    <img src="img/sections/news/news-featured5.jpg" alt="(description of photo)" />
-                                    <div class="caption">
-                                        <span class="date">May 7, 2010</span> <a class="slide-title" href="#">Campus Celebrates
-                                            Steinmetz Symposium and Prize Day (5)</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <a href="#" class="news-slide-nav-left">
-                                <img src="img/common/nav-arrow2-left.png" alt="previous" /></a> <a href="#" class="news-slide-nav-right">
-                                    <img src="img/common/nav-arrow2-right.png" alt="next" /></a>
-                        </div>
-                        <div class="article-content article-content-wide separator-right">
-                            <div class="box-title box-title-alt">
-                                Recent Headlines</div>
-                            <ul class="post-list post-list-alt">
-                                <li><a href="#" class="post-title">Frank Wicks receives merit award from local engineering
-                                    association</a></li>
-                                <li><a href="#" class="post-title">Get ready for ReUnion 2010</a></li>
-                                <li><a href="#" class="post-title">Spring theater production, 'Dancing at Lughnasa,'
-                                    an Irish memory play</a></li>
-                                <li><a href="#" class="post-title">Noted researcher Mildred Dresselhaus to receive honorary
-                                    degree at Commencement</a></li>
-                                <li><a href="#" class="post-title">Schenectady County honors Union for its sustainability
-                                    efforts</a></li>
-                                <li><a href="#" class="post-title">Think you understand professor's new book? Think
-                                    again.</a></li>
-                                <li><a href="#" class="post-title">Campus celebrates Steinmetz Symposium and Prize Day</a></li>
-                                <li><a href="#" class="post-title">Minerva Fellows return to campus</a></li>
-                                <li><a href="#" class="post-title">Student's exhibit offers glimpse into Jewish immigrant
-                                    life</a></li>
-                                <li><a href="#" class="post-title">Schenectady Chamber honors Union for community service</a></li>
-                            </ul>
-                            <div class="post-footer">
-                                <ul class="inline-list post-pager">
-                                    <li><a href="#" class="prev">Previous stories</a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">5</a></li>
-                                    <li><a href="#">Next</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clearfix">
-                        </div>
+                        <div class="clearfix" ></div>
                     </div>
-                    <div class="clearfix">
-                    </div>
+                    <div class="clearfix" ></div>
                 </div>
-                <div class="main-content-footer">
-                    <a class="share-link" href="#">Share this page+</a>
-                </div>
+                <system-region name="PAGEFOOTER" />
             </div>
         </div>
-        <!--========== End Body Outer ==========-->
-        <hr class="hide" />
-        <!--========== Begin Footer ==========-->
-        <div id="footer" class="footer-content">
-            <p class="vcard">
-                <span class="fn org">Union College</span> <span class="adr"><span class="street-address">
-                    807 Union St.</span> <span class="locality">Schenectady</span>, <span class="region">
-                        NY</span> <span class="postal-code">12308</span> </span><span class="tel">(518) 388-6000</span>
-            </p>
-            <p>
-                This page maintained by the <a href="#">Office of Communications</a>.</p>
-            <p>
-                &copy; Copyright 2010</p>
-            <div class="social-links">
-                <span class="title">Connect with Union:</span>
-                <ul class="inline-list inline-icon-list">
-                    <li><a href="#">
-                        <img src="img/footer/facebook-icon.png" alt="Facebook" title="Union College's Facebook page" /></a></li>
-                    <li><a href="#">
-                        <img src="img/footer/youtube-icon.png" alt="YouTube" title="Union College's YouTube channel" /></a></li>
-                    <li><a href="#">
-                        <img src="img/footer/twitter-icon.png" alt="Twitter" title="Follow Union College on Twitter" /></a></li>
-                </ul>
-            </div>
-        </div>
-        <!--========== End Footer ==========-->
-    </div>
+    <!--========== End Body Outer ==========-->
+    <system-region name="SITEFOOTER" />
+</div>
+<system-region name="JS-CLOUDFRONT" />
 </body>
 </html>
