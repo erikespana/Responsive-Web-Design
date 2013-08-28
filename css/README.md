@@ -7,7 +7,7 @@ Converting fixed-width mStoner template to Responsive Design
 
 #### Requirements ####
 * Cascade Server 6.10+ with Velocity 1.7
-* Foundation 4.3.1
+* [Foundation 4.3.1](http://foundation.zurb.com/)
 
 #### Setup ####
 * Upload [Foundation 4](http://www.union.edu/foundation.html) assets to Cascade Server.
