@@ -30,7 +30,7 @@ div id = footer
 
 .main-leftcol-outer { background: #eee; }
 .main-maincol { margin-left: 0px; padding-bottom: 0px;}
-
+.article-content-wide  { padding-right: 0; }
 
 /* Normalize images */
 
