@@ -16,21 +16,22 @@ div id = footer
     ul class social-links
 */
 
-.audience-nav { display: none; }
-.search-form { display: none; }
-#topic-nav { display: none; }
-.main-leftcol { display: none; }
-.breadcrumbs-list { display: none; }
-.article-functions { display:none; }
-.social-links { display: none; }
+.audience-nav, .search-form, #topic-nav, .main-leftcol, .breadcrumbs-list, .article-functions, .social-links { display: none; }
+
+/* Tweaks */
+.main-leftcol-outer { background: #eee; }
+.main-maincol { margin-left: 0;}
+
+/* Remaining layout should be proportional to the screen. */ 
+#page-outer {
+    margin: 0 auto;
+    width: 95%; /* Change container width from 1001px to 95% */
+}
 
 /* Normalize images */
 
 .logo-outer { max-width: 100%; }
 
-/* Tweaks */
-.main-leftcol-outer { background: #eee; }
-.main-maincol { margin-left: 0;}
 
 /* Switch from multiple columns to a single column 
     .col-one {
