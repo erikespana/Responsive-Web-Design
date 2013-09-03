@@ -18,28 +18,20 @@ div id = footer
 
 .audience-nav, .search-form, #topic-nav, .main-leftcol, .breadcrumbs-list, .article-functions, .social-links { display: none; }
 
-/* Tweaks */
-.main-leftcol-outer { background: #eee; }
-.main-maincol { margin-left: 0;}
-
 /* Remaining layout should be proportional to the screen. */ 
+
 #page-outer {
     margin: 0 auto;
-    width: 95%; /* Change container width from 1001px to 95% */
+    width: 98%; /* Change container width from 1001px to 95% */
 }
+#main {
+    margin: 0 0;
+}
+
+.main-leftcol-outer { background: #eee; }
+.main-maincol { margin-left: 0px; padding-bottom: 0px;}
+
 
 /* Normalize images */
 
-.logo-outer { max-width: 100%; }
-
-
-/* Switch from multiple columns to a single column 
-    .col-one {
-        float: none;
-        width: 100%;
-    }
-*/
-.article-header {
-    width:100%;
-    margin:0%;
-}
+.logo-outer { max-width: 75%; }
