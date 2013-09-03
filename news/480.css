@@ -1,0 +1,44 @@
+/* 320 x 480 resolutions  */
+    
+/* Hide regions: 
+
+div id header
+    div class audience-nav
+    div class search-form
+div id topic-nav
+div id main-content
+    div class main-leftcol-outer
+        div class main-leftcol
+        div class main-maincol
+        ul class breadcrumbs-list
+        div class article-functions
+div id = footer
+    ul class social-links
+*/
+
+.audience-nav { display: none; }
+.search-form { display: none; }
+#topic-nav { display: none; }
+.main-leftcol { display: none; }
+.breadcrumbs-list { display: none; }
+.article-functions { display:none; }
+.social-links { display: none; }
+
+/* Normalize images */
+
+.logo-outer { max-width: 100%; }
+
+/* Tweaks */
+.main-leftcol-outer { background: #eee; }
+.main-maincol { margin-left: 0;}
+
+/* Switch from multiple columns to a single column 
+    .col-one {
+        float: none;
+        width: 100%;
+    }
+*/
+.article-header {
+    width:100%;
+    margin:0%;
+}
