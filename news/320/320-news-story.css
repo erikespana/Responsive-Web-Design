@@ -1,0 +1,36 @@
+/* 320 x 480 resolutions  */
+    
+/* Hide regions: 
+
+div id header
+    div class audience-nav
+    div class search-form
+div id topic-nav
+div id main-content
+    div class main-leftcol-outer
+        div class main-leftcol
+        div class main-maincol
+        ul class breadcrumbs-list
+        div class article-functions
+div id = footer
+    ul class social-links
+*/
+
+.audience-nav, .search-form, #topic-nav, .main-leftcol, .breadcrumbs-list, .article-functions, .social-links { display: none; }
+
+/* Remaining layout should be proportional to the screen. */ 
+
+#page-outer {
+    margin: 0 auto;
+    width: 95%; /* Change container width from 1001px to 95% */
+}
+#main {
+    margin: 0 0;
+}
+.main-maincol { margin-left: 0px; padding-bottom: 0px;}
+.main-leftcol-outer { background: #eee; }
+.article-content-wide2  { padding-right: 0; }
+
+/* Normalize images */
+
+.logo-outer { max-width: 75%; }
