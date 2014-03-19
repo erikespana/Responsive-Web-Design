@@ -1,6 +1,6 @@
 ## Responsive Web Design ##
 
-Converting fixed-width mStoner template to Responsive Design
+Convert fixed-width mStoner template to Responsive Design and ask, "Can you see me now?"
 
 #### Goal ####
 * To convert Union's fixed-width template to a responsive web design such that visitors who click on a link from an email newsletter and arrive at a www.union.edu subpage, can read the intended call to action.
