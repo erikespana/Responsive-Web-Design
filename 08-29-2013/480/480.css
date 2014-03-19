@@ -22,15 +22,14 @@ div id = footer
 
 #page-outer {
     margin: 0 auto;
-    width: 98%; /* Change container width from 1001px to 95% */
+    width: 95%; /* Change container width from 1001px to 95% */
 }
 #main {
     margin: 0 0;
 }
-
-.main-leftcol-outer { background: #eee; }
 .main-maincol { margin-left: 0px; padding-bottom: 0px;}
-.article-content-wide  { padding-right: 0; }
+.main-leftcol-outer { background: #eee; }
+.article-content-wide2  { padding-right: 0; }
 
 /* Normalize images */
 
