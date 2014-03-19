@@ -65,7 +65,7 @@ img,abbr,acronym{border:0}
 body {
    font-family: Sans-Serif;
     color: #fff;
-    background: #561213 url(../img/common/page-bg.jpg) no-repeat 50% 0;
+    background: #561213 url(http://www.union.edu/img/common/page-bg.jpg) no-repeat 50% 0;
 }
 
 a, a:link, a:visited {
@@ -152,7 +152,7 @@ p {
     padding: 30px 26px 18px;
     font-weight: bold;
     color: #a6a6a1;  /*-- changed from dcdcdc for accessibility contrast ratio --*/
-    background: #333 url(../img/footer/footer-bg.png) repeat-x;
+    background: #333 url(http://www.union.edu/img/footer/footer-bg.png) repeat-x;
 }
 
 #footer .social-links {
@@ -189,7 +189,7 @@ p {
 }
 
 .main-content-alt {
-    background: #353535 url(../img/common/main-content-alt-bg.png) no-repeat;
+    background: #353535 url(http://www.union.edu/img/common/main-content-alt-bg.png) no-repeat;
 }
 
 .main-content-footer {
@@ -237,7 +237,7 @@ text-align: right;
     position: relative;
     top: -176px;
     margin-bottom: -176px;
-    background: url(../img/common/banner-overlap.png) repeat-x;
+    background: url(http://www.union.edu/img/common/banner-overlap.png) repeat-x;
 }
 
 .banner-overlap .col-outer {
@@ -248,7 +248,7 @@ text-align: right;
     position: relative;
     z-index: 10;
     padding-bottom: 10px;
-    background: #eee url(../img/common/main-leftcol-bg.png) repeat-y;
+    background: #eee url(http://www.union.edu/img/common/main-leftcol-bg.png) repeat-y;
 }
 
 .main-leftcol-outer-alt {
@@ -267,7 +267,7 @@ text-align: right;
 }
 
 .main-maincol-alt {
-    background: #f7f7f6 url(../img/sections/news/alt-bg.png) no-repeat
+    background: #f7f7f6 url(http://www.union.edu/img/sections/news/alt-bg.png) no-repeat
 }
 
 .col-narrow {
@@ -316,7 +316,7 @@ text-align: right;
 
 .article-header-alt {
     padding: 9px 304px 9px 18px;
-    background: #190303 url(../img/common/article-header-bg.png) 100% 0 no-repeat;
+    background: #190303 url(http://www.union.edu/img/common/article-header-bg.png) 100% 0 no-repeat;
 }
 
 .article-header-alt h1 {
@@ -563,7 +563,7 @@ a img { border:none; vertical-align:top; }
 .audience-nav .selected {
     border: solid 1px #292929;
     border-top-width: 0;
-    background: #484848 url(../img/header/audience-nav-selected-bg.png) repeat-x;
+    background: #484848 url(http://www.union.edu/img/header/audience-nav-selected-bg.png) repeat-x;
 }
 
 .audience-nav .selected a, .audience-nav a:hover, .audience-nav a:active {
@@ -630,39 +630,39 @@ a img { border:none; vertical-align:top; }
 
 #topic-nav .about {
     width: 103px;
-    background-image: url(../img/nav/about.png);
+    background-image: url(http://www.union.edu/img/nav/about.png);
 }
 
 #topic-nav .academics {
     width: 142px;
-    background-image: url(../img/nav/academics.png);
+    background-image: url(http://www.union.edu/img/nav/academics.png);
 }
 
 #topic-nav .admissions {
     width: 148px;
 
 
-    background-image: url(../img/nav/admissions.png);
+    background-image: url(http://www.union.edu/img/nav/admissions.png);
 }
 
 #topic-nav .studentLife {
     width: 152px;
-    background-image: url(../img/nav/campus-life-20.png);
+    background-image: url(http://www.union.edu/img/nav/campus-life-20.png);
 }
 
 #topic-nav .athletics {
     width: 127px;
-    background-image: url(../img/nav/athletics.png);
+    background-image: url(http://www.union.edu/img/nav/athletics.png);
 }
 
 #topic-nav .newsEvents {
     width: 173px;
-    background-image: url(../img/nav/news-events.png);
+    background-image: url(http://www.union.edu/img/nav/news-events.png);
 }
 
 #topic-nav .giving {
     width: 106px;
-    background-image: url(../img/nav/giving.png);
+    background-image: url(http://www.union.edu/img/nav/giving.png);
 }
 
 /*--- subnav ---*/
@@ -734,7 +734,7 @@ a img { border:none; vertical-align:top; }
     font-size: .9em;
     color: #4f4f4f;   /*-- changed for accessibility color contrast --*/
     /*--text-decoration: underline; - removed so unlinked text doesn't look like a link --*/
-    background: url(../img/common/bullet2.png) no-repeat 0 50%;
+    background: url(http://www.union.edu/img/common/bullet2.png) no-repeat 0 50%;
 }
 
 .breadcrumbs-list li:first-child {
@@ -767,7 +767,7 @@ a img { border:none; vertical-align:top; }
     font-size: .9em;
     color: #fff;
     text-decoration: underline;
-    background: url(../img/common/bullet2.png) 0 50% no-repeat;
+    background: url(http://www.union.edu/img/common/bullet2.png) 0 50% no-repeat;
 }
 
 .crumb-list li:first-child {
@@ -1413,7 +1413,7 @@ a.post-image img, .post-image a img {
 .feature-widget {
     position: relative;
     color: #fff;
-    background: #353535 url(../img/common/feature-widget-bg.png) repeat-x;
+    background: #353535 url(http://www.union.edu/img/common/feature-widget-bg.png) repeat-x;
 }
 
 
@@ -1427,7 +1427,7 @@ a.post-image img, .post-image a img {
 .feature-widget-white {
     position: relative;
     color: #7f7f7f;
-    background: #fff url(../img/common/feature-widget-white-bg.png) repeat-x;
+    background: #fff url(http://www.union.edu/img/common/feature-widget-white-bg.png) repeat-x;
     border: solid 1px #888899;
 }
 
@@ -1547,12 +1547,12 @@ color: #fea;
 }
 
 .links-list-alt2 li {
-    background: url(../img/common/bullet3.png) 0 .7em no-repeat;
+    background: url(http://www.union.edu/img/common/bullet3.png) 0 .7em no-repeat;
 }
 
 .links-list-alt3 li {
     margin-bottom: 3px;
-    background: url(../img/common/bullet4.png) 0 .7em no-repeat;
+    background: url(http://www.union.edu/img/common/bullet4.png) 0 .7em no-repeat;
 }
 
 .links-list-alt3 a, .links-list-alt3 a:visited {
@@ -1577,7 +1577,7 @@ color: #fea;
     margin: 0;
     padding: 5px 13px;
     font-weight: bold;
-    background: url(../img/common/bullet2.png) 0 .7em no-repeat;
+    background: url(http://www.union.edu/img/common/bullet2.png) 0 .7em no-repeat;
 }
 
 .links-list-alt li {
@@ -1585,12 +1585,12 @@ color: #fea;
 }
 
 .links-list-alt2 li {
-    background: url(../img/common/bullet3.png) 0 .7em no-repeat;
+    background: url(http://www.union.edu/img/common/bullet3.png) 0 .7em no-repeat;
 }
 
 .links-list-alt3 li {
     margin-bottom: 3px;
-    background: url(../img/common/bullet4.png) 0 .7em no-repeat;
+    background: url(http://www.union.edu/img/common/bullet4.png) 0 .7em no-repeat;
 }
 
 .links-list-alt3 a, .links-list-alt3 a:visited {
@@ -1644,27 +1644,27 @@ color: #fea;
 
 .small-tab-list .www {
     width: 39px;
-    background-image: url(../img/sections/widgets/tab-www.png);
+    background-image: url(http://www.union.edu/img/sections/widgets/tab-www.png);
 }
 
 .small-tab-list .people {
     width: 44px;
-    background-image: url(../img/sections/widgets/tab-people.png);
+    background-image: url(http://www.union.edu/img/sections/widgets/tab-people.png);
 }
 
 .small-tab-list .news {
     width: 39px;
-    background-image: url(../img/sections/widgets/tab-news.png);
+    background-image: url(http://www.union.edu/img/sections/widgets/tab-news.png);
 }
 
 .small-tab-list .directory {
     width: 56px;
-    background-image: url(../img/sections/widgets/tab-directory.png);
+    background-image: url(http://www.union.edu/img/sections/widgets/tab-directory.png);
 }
 
 .small-tab-list .library {
     width: 42px;
-    background-image: url(../img/sections/widgets/tab-library.png);
+    background-image: url(http://www.union.edu/img/sections/widgets/tab-library.png);
 }
 
 /* Color Share this text */
@@ -1708,14 +1708,14 @@ color:#9a9a9a;
 
 .news-media-picker {
     position: relative;
-    background: url(../img/sections/news/news-media-picker-bg.png) repeat-x;
+    background: url(http://www.union.edu/img/sections/news/news-media-picker-bg.png) repeat-x;
 }
 
 /* for news homepage */
 
 .news-media-picker-home {
     position: relative;
-    background: url(../img/sections/news/news-media-picker-bg.png) repeat-x;
+    background: url(http://www.union.edu/img/sections/news/news-media-picker-bg.png) repeat-x;
     padding-right: 50px;
     
     
@@ -1758,11 +1758,11 @@ color:#9a9a9a;
     width: 10px;
     height: 10px;
     text-indent: -9999px;
-    background: url(../img/common/picker-nav-off.png) no-repeat;
+    background: url(http://www.union.edu/img/common/picker-nav-off.png) no-repeat;
 }
 
 .picker-nav .activeSlide {
-    background: url(../img/common/picker-nav-on.png) no-repeat;
+    background: url(http://www.union.edu/img/common/picker-nav-on.png) no-repeat;
 }
 
 /*--- primary events list ---*/
@@ -1880,7 +1880,7 @@ line-height: 2%;
     -webkit-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
     width: 660px;
-    background: #353535 url(../img/common/tabs-bg.png) repeat-x;
+    background: #353535 url(http://www.union.edu/img/common/tabs-bg.png) repeat-x;
 }
 
 .tabs-full .tab-nav {
@@ -1937,7 +1937,7 @@ line-height: 2%;
 .ui-tabs-nav li.ui-tabs-selected a:visited,
 .ui-tabs-nav li.ui-tabs-selected a:hover {
     color: #fc3;
-    background: #3f3f3f url(../img/common/sidetab-selected-bg.png) repeat-y;
+    background: #3f3f3f url(http://www.union.edu/img/common/sidetab-selected-bg.png) repeat-y;
 }
 /*--- slides ---*/
 
@@ -2081,7 +2081,7 @@ line-height: 2%;
     right: 0;
     bottom: 0;
     padding: 10px 15px;
-    background: url(../img/common/bg-trans.png);
+    background: url(http://www.union.edu/img/common/bg-trans.png);
     color: #fff;
 }
 
@@ -2175,7 +2175,7 @@ top:366px;
 
     bottom: 0;
     padding: 10px 15px;
-    background: url(../img/common/bg-trans.png);
+    background: url(http://www.union.edu/img/common/bg-trans.png);
     color: #fff;
 }
 
@@ -2246,7 +2246,7 @@ top:366px;
     color: #fff;
    font-size: 10pt;
    
-    background: url(../img/common/bg-trans4.png);
+    background: url(http://www.union.edu/img/common/bg-trans4.png);
 }
 
 .home-slides-outer .home-slides .slide-popup img {
@@ -2457,7 +2457,7 @@ hr.style-two { border: 0; height: 00.1em; background-image: -webkit-linear-gradi
 #filterable li.current a {
     margin: 0 0 0 5px;
     padding: 0 0 0 9px;
-    background: url(../img/common/bullet2.png) 0 50% no-repeat;
+    background: url(http://www.union.edu/img/common/bullet2.png) 0 50% no-repeat;
 
 }
     
@@ -2485,7 +2485,7 @@ padding: 0px;
 
 a.portfolio-item-preview {
     display:block;
-    background:url(../images/bg-fade.png) no-repeat center center;
+    background:url(http://www.union.edu/images/bg-fade.png) no-repeat center center;
     z-index:9999;
     
 
@@ -2540,7 +2540,7 @@ ul.socialicons li a {
     width: 32px;
     height: 33px;
     display: block;
-    background: url('../img/homepage-gr/socialSprite1.png') no-repeat; 
+    background: url('http://www.union.edu/img/homepage-gr/socialSprite1.png') no-repeat; 
 }
 
 ul.socialicons li a.facebook{background-position: 0 0; }
@@ -2556,4 +2556,4 @@ ul.socialicons li a.linkedin:hover  { background-position: -38px -219px; }
 ul.socialicons li a.wordpress   { background-position: 0 -402px; }
 ul.socialicons li a.wordpress:hover     { background-position: -38px -402px; }
 
-img { behavior: url('../_scripts/iepngfix.htc') }
+img { behavior: url('http://www.union.edu/_scripts/iepngfix.htc') }
