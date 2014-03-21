@@ -1,7 +1,7 @@
 A test to see whether our mStoner design can be converted to a responsive design by adding Pure CSS classes to the layout HTML.
 
 1. Start with the current template.
-2. Replace the layout-related <div> tags with Pure CSS classes.
+2. Replace the layout-related `<div>` tags with Pure CSS classes.
 3. Create a copy of styles.css
 4. Only include the Grids component of the Pure CSS framework.
 5. NULL-out those aspects of the CSS related to layout so they don't override the Pure definitions.
