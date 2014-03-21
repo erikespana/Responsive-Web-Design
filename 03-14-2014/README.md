@@ -1,15 +1,24 @@
-A test to see whether our mStoner design can be converted to a responsive design by adding Pure CSS classes to the layout HTML.
+Experiment: Test whether our mStoner design can be converted to a responsive design by adding Pure CSS classes to the layout HTML.
 
-1. Start with the current template.
-2. Replace the layout-related `<div>` tags with Pure CSS classes.
-3. Create a copy of styles.css
-4. Only include the Grids component of the Pure CSS framework.
-5. NULL-out those aspects of the CSS related to layout so they don't override the Pure definitions.
-6. Make sure to include the styles.css after the Pure file so the Pure styles don't overwrite the mStoner styles.
+Result: Yes, with minimal distruption to design.
+
+Caveats:
+
+- Disable `#page-outer { width: 1001px; }` in styles.css, line 121.
+- Topic navigation image sprites are not RWD-friendly. Recommend hiding on small screens.
+- Flatten nested divs, e.g. `<div id="main" class="main-content main-leftcol-outer main-leftcol-outer-alt` to simplify responsive layout. Results in loss of top borders.
+- Can't replicate precise layout dimensions using 24-column grid system. E.g. 207px wide menu becomes 208.5417 (5/24).
+
+Procedure:
+
+1. Download http://www.union.edu/news/stories/2014/03/success-scholars-to-focus-on-stem.php.
+2. Download http://www.union.edu/_css/styles.css and replace relative with absolute links.
+3. Add `<link href="http://yui.yahooapis.com/pure/0.4.2/grids-min.css" rel="stylesheet" />`.
+4. Add `pure-g-r` and `pure-u-*-*` to layout-related `<div>` tags.
+5. Make sure to include the styles.css after the Pure file so the Pure styles don't overwrite the mStoner styles.
+6. NULL-out those aspects of the CSS related to layout so they don't override the Pure definitions.
 
 March 17, 2014
-* Compare to:
-	http://www.union.edu/news/stories/2014/03/success-scholars-to-focus-on-stem.php
 * Consolidated:
 `	<div id="main">
 		<div class="main-content">
