@@ -1,6 +1,6 @@
 Experiment: Test whether our mStoner design can be converted to a responsive design by adding Pure CSS classes to the layout HTML.
 
-Result: Yes, with minimal distruption to design.
+Result: Yes, it can be converted with minimal changes to design.
 
 Caveats:
 
