@@ -9,7 +9,7 @@
 **Benefits**
 - Foundation imposes a maximum width (customizable).
 - Built-in JavaScript effects, including modal windows, image carousel (orbit), etc.
-- Large adoption. E.g. nd.edu (supports IE 7)
+- Wide adoption. E.g. http://nd.edu (supports IE 7)
 
 **Procedure**
 
