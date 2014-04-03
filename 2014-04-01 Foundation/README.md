@@ -13,7 +13,7 @@ Steps:
 
 1. Copy the Pure CSS proof of concept /2014-03-14 Pure CSS/Article.html.
 2. Copy styles-minus-layout from /2014-03-14 Pure CSS/.
-3. Download the Foundation 5.2 from the website.
+3. Download the Foundation 5.2.1 from the website.
 3. Add Foundation includes to Article.html.
 4. Add `row` and `large-* columns` to layout-related `<div>` tags.
 5. Make sure to include our CSS include after the Foundation includes so they don't overwrite the mStoner styles.
